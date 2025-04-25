@@ -26,7 +26,6 @@ Protocolos: MQTT, HTTP REST.
 <br>
 
 # Tabla de Actuadores
-<br>
 | Noombre | Descripcion | Uso en el proyecto |
 |--------------|-----------|-----------|
 |Servomotores| Motores que abren compartimientos | Dispensacion de pastillas | 
@@ -35,7 +34,6 @@ Protocolos: MQTT, HTTP REST.
 
 
 # Tabla de sensores
-<br>
 | Noombre | Descripcion | Uso en el proyecto |
 |--------------|-----------|-----------|
 |RFID RC522| Identificación por radiofrecuencia | Autenticación de pacientes |
