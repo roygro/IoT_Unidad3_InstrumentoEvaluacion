@@ -69,6 +69,19 @@ LEDs indican el estado del proceso.
 # Bases de Datos y Almacenamiento 
 <br>
 
+![image](https://github.com/user-attachments/assets/6204e1f7-021d-461f-88ef-e11a5873fad2)
+
+<br>
+
+![image](https://github.com/user-attachments/assets/43573524-4fc0-41ce-b71b-8d77559f6a5f)
+
+<br>
+
+![image](https://github.com/user-attachments/assets/642df161-a0fc-46c0-99b9-fe6101d85bd1)
+
+
+
+
 # Ejercicios de Clase 
 <br>
 
