@@ -26,18 +26,18 @@ Protocolos: MQTT, HTTP REST.
 <br>
 
 # Tabla de Actuadores
-| Noombre | Descripcion | Uso en el proyecto |
-|--------------|-----------|-----------|
-|Servomotores| Motores que abren compartimientos | Dispensacion de pastillas | 
-|Bombas peristálticas| Bombas para líquidos | Dispensación de jarabes |
-|LEDs | Indicadores visuales | Estado de operación |
+| Nombre | Descripcion | Uso en el proyecto | Imagen |
+|--------------|-----------|-----------|-----------|
+|Servomotores| Motores que abren compartimientos | Dispensacion de pastillas | |
+|Bombas peristálticas| Bombas para líquidos | Dispensación de jarabes | |
+|LEDs | Indicadores visuales | Estado de operación | |
 
 
 # Tabla de sensores
-| Noombre | Descripcion | Uso en el proyecto |
-|--------------|-----------|-----------|
-|RFID RC522| Identificación por radiofrecuencia | Autenticación de pacientes |
-|Sensor de humedad | Mide niveles de humedad | Seguridad del sistema |
+| Noombre | Descripcion | Uso en el proyecto | Imagen |
+|--------------|-----------|-----------|-----------|
+|RFID RC522| Identificación por radiofrecuencia | Autenticación de pacientes | |
+|Sensor de humedad | Mide niveles de humedad | Seguridad del sistema | |
 
 # Funcionalidad del Sistema
 <br>
