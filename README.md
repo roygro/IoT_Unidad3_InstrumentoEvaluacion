@@ -10,8 +10,11 @@ El Tachomorfinador 62 es un sistema automatizado de dispensación de medicamento
 # Objetivos del Proyecto
 <br>
 - Automatizar la administración de medicamentos.
+<br>
 - Garantizar que cada paciente reciba su dosis correcta.
+<br>
 - Integrar tecnologías IoT para facilitar el monitoreo y control del dispensador.
+<br>
 - Ofrecer una solución funcional, segura y escalable para el entorno médico.
 
 # Tecnologias utilizadas
