@@ -54,8 +54,6 @@ Se registra la acción en el historial.
 
 LEDs indican el estado del proceso.
 
-# Tabla de Actuadores
-<br>
 
 # Interfaz Grafica 
 <br>
