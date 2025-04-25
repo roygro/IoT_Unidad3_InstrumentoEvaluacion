@@ -29,7 +29,12 @@
 # Ejercicios de Clase 
 
 # Coevaluacion 
-<br>
+
 https://github.com/roygro/IoT_Unidad3_InstrumentoEvaluacion/edit/main/README.md
 
 # Autores 
+
+Juana Jaqueline Camarrillo Olaez
+Jose Andres Gutierrez Vargas
+Princes Rocio Guerrero Sánchez 
+<br>
