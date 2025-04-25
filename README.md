@@ -87,7 +87,7 @@ LEDs indican el estado del proceso.
 
 # Coevaluacion 
 
-https://github.com/roygro/IoT_Unidad3_InstrumentoEvaluacion/edit/main/README.md
+https://github.com/roygro/IoT_Unidad3_InstrumentoEvaluacion/edit/main/README.md 
 
 # Autores 
 
