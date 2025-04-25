@@ -35,6 +35,8 @@ https://github.com/roygro/IoT_Unidad3_InstrumentoEvaluacion/edit/main/README.md
 # Autores 
 
 Juana Jaqueline Camarrillo Olaez
+<br>
 Jose Andres Gutierrez Vargas
+<br>
 Princes Rocio Guerrero Sánchez 
 <br>
