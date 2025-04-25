@@ -18,12 +18,13 @@ El Tachomorfinador 62 es un sistema automatizado de dispensación de medicamento
 - Ofrecer una solución funcional, segura y escalable para el entorno médico.
 
 # Tecnologias utilizadas
-<br>
-Hardware: ESP32, RFID RC522, servomotores, bombas peristálticas, sensores de humedad, LEDs, pantalla TFT táctil.
-<br>
-Software: Arduino IDE, Thonny (Python para MQTT), PostgreSQL, Android Studio (Kotlin), Node.js con Express.
-<br>
-Protocolos: MQTT, HTTP REST.
+| Categoría     | Tecnologías                                                                 |
+|---------------|------------------------------------------------------------------------------|
+| **Hardware**  | ESP32, RFID RC522, servomotores, bombas peristálticas, sensores de humedad, LEDs, pantalla TFT táctil |
+| **Software**  | Arduino IDE, Thonny (Python para MQTT), PostgreSQL, Android Studio (Kotlin), Node.js con Express |
+| **Protocolos**| MQTT, HTTP REST                                                              |
+| **Otros**     | Impresión 3D                                                                 |
+
 
 # Arquitectura del Sistema
 <br>
