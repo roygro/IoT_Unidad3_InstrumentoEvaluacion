@@ -41,7 +41,7 @@ El Tachomorfinador 62 es un sistema automatizado de dispensación de medicamento
 | Nombre | Descripcion | Uso en el proyecto | Imagen |
 |--------------|-----------|-----------|-----------|
 |RFID RC522| Identificación por radiofrecuencia | Autenticación de pacientes | ![image](https://github.com/user-attachments/assets/002e70f3-e436-4943-931a-97413318eb89) |
-|Sensor de humedad | Mide niveles de humedad | Seguridad del sistema | ![image](https://github.com/user-attachments/assets/19629866-1eaa-4263-93e8-4a4abe74b120) |
+|Sensor de agua | Mide niveles de humedad | Seguridad del sistema | ![image](https://github.com/user-attachments/assets/19629866-1eaa-4263-93e8-4a4abe74b120) |
 
 # Funcionalidad del Sistema
 <br>
