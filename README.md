@@ -83,7 +83,7 @@ LEDs indican el estado del proceso.
 
 
 # Ejercicios de Clase 
-<br>
+https://drive.google.com/drive/folders/1gkQf6arO-RZu3aNoIe4QQNL3Rfe0vFYb?usp=sharing
 
 # Coevaluacion 
 
