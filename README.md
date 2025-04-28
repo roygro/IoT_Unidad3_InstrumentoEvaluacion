@@ -86,7 +86,7 @@ https://drive.google.com/drive/folders/1gkQf6arO-RZu3aNoIe4QQNL3Rfe0vFYb?usp=sha
 
 # Coevaluacion 
 
-https://github.com/roygro/IoT_Unidad3_InstrumentoEvaluacion/edit/main/README.md 
+https://docs.google.com/document/d/1JNbdgmP8gc3tPysofamoscSPRqMPaIEy5yJ789uDi5Q/edit?usp=sharing
 
 # Autores 
 
