@@ -1,6 +1,11 @@
 # IoT_Unidad3_InstrumentoEvaluacion
 
 # El Tachomorfinador 62 💊🔥
+![Imagen de WhatsApp 2025-04-28 a las 16 16 46_00b29e4b](https://github.com/user-attachments/assets/77be6598-527b-44b5-9087-6665ec2d8065)
+![Imagen de WhatsApp 2025-04-28 a las 16 16 46_22c030ec](https://github.com/user-attachments/assets/6ff76f49-2466-4747-a5a5-bf5efa752326)
+![Imagen de WhatsApp 2025-04-28 a las 16 16 47_a0d2fd29](https://github.com/user-attachments/assets/40885788-9039-47d1-80be-4f38dd9f615b
+![Imagen de WhatsApp 2025-04-28 a las 16 16 49_a3bd83ab](https://github.com/user-attachments/assets/6b9b04ba-1dc3-4c37-9e78-ea6cac5be65d)
+
 
 # Descripcion General
 <br>
