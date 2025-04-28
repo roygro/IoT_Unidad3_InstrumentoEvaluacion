@@ -1,0 +1,125 @@
+CREATE USER utng WITH PASSWORD ’1234’;
+CREATE DATABASE medicamentos OWNER utng;
+GRANT ALL PRIVILEGES ON DATABASE medicamentos TO utng;
+   \c medicamentos
+
+CREATE DATABASE medicamentos;
+
+\c medicamentos
+
+
+-- Tabla de Administradores/Doctores
+CREATE TABLE administradores (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tabla de Pacientes
+CREATE TABLE pacientes (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    apellido VARCHAR(50) NOT NULL,
+    fecha_nacimiento DATE NOT NULL,
+    genero VARCHAR(20) CHECK (genero IN ('Masculino', 'Femenino', 'Otro')),
+    contacto VARCHAR(20),
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Tabla de Medicamentos
+CREATE TABLE medicamentos (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    dosis_mg DECIMAL(10,2) NOT NULL,
+    fecha_caducidad DATE NOT NULL,
+    disponibilidad BOOLEAN DEFAULT TRUE,
+    tipo INT NOT NULL CHECK (tipo IN (1, 2)), -- 1 = Pastilla, 2 = Líquido
+    stock INT NOT NULL DEFAULT 0
+);
+
+-- Tabla de Dosis/Prescripciones
+CREATE TABLE dosis (
+    id SERIAL PRIMARY KEY,
+    paciente_id INT REFERENCES pacientes(id) ON DELETE CASCADE,
+    medicamento_id INT REFERENCES medicamentos(id) ON DELETE CASCADE,
+    administrador_id INT REFERENCES administradores(id) ON DELETE SET NULL,
+    tipo INT NOT NULL CHECK (tipo IN (1, 2)), -- 1 = Pastilla, 2 = Líquido
+    cantidad DECIMAL(10,2) NOT NULL, -- Número de pastillas o ml de líquido
+    fecha_prescripcion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    fecha_aplicacion TIMESTAMP,
+    instrucciones TEXT
+);
+
+-- Tabla de Historial
+CREATE TABLE historial (
+    id SERIAL PRIMARY KEY,
+    paciente_id INT REFERENCES pacientes(id) ON DELETE CASCADE,
+    dosis_id INT REFERENCES dosis(id) ON DELETE SET NULL,
+    medicamento_id INT REFERENCES medicamentos(id) ON DELETE SET NULL,
+    administrador_id INT REFERENCES administradores(id) ON DELETE SET NULL,
+    dosis_aplicada DECIMAL(10,2) NOT NULL,
+    selatomado BOOLEAN NOT NULL, -- True=Si, False=No
+    hora_aplicacion TIMESTAMP NOT NULL,
+    observaciones TEXT,
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+-- Modificar tabla de Administradores para agregar RFID
+ALTER TABLE administradores
+ADD COLUMN rfid VARCHAR(50) UNIQUE;
+
+-- Modificar tabla de Pacientes para agregar RFID
+ALTER TABLE pacientes
+ADD COLUMN rfid VARCHAR(50) UNIQUE;
+
+
+
+-- Insertar Administradores/Doctores (con RFID)
+INSERT INTO administradores (nombre, apellido, email, password, fecha_registro)
+VALUES
+  ('Dr. Juan', 'Pérez', 'juan.perez@medic.com', 'password123', NOW()), 
+  ('Dra. Ana', 'Gómez', 'ana.gomez@medic.com', 'password456', NOW()),
+  ('Dr. Luis', 'Martínez', 'luis.martinez@medic.com', 'password789', NOW());
+
+-- Insertar Pacientes
+INSERT INTO pacientes (nombre, apellido, fecha_nacimiento, genero, contacto, fecha_registro)
+VALUES
+  ('Carlos', 'Sánchez', '1985-04-12', 'Masculino', '123-456-7890', NOW()),
+  ('María', 'López', '1992-11-22', 'Femenino', '987-654-3210', NOW()),
+  ('Juan', 'Ramírez', '2000-06-15', 'Masculino', '555-555-5555', NOW());
+
+-- Insertar Medicamentos
+INSERT INTO medicamentos (nombre, dosis_mg, fecha_caducidad, disponibilidad, tipo, stock)
+VALUES
+  ('Paracetamol', 500, '2025-12-31', TRUE, 1, 100), -- Pastilla
+  ('Ibuprofeno', 200, '2025-11-30', TRUE, 1, 50), -- Pastilla
+  ('Amoxicilina', 250, '2025-07-15', TRUE, 2, 30), -- Líquido
+  ('Cough Syrup', 100, '2026-03-01', TRUE, 2, 40); -- Líquido
+
+-- Insertar Dosis/Prescripciones
+INSERT INTO dosis (paciente_id, medicamento_id, administrador_id, tipo, cantidad, fecha_prescripcion, fecha_aplicacion, instrucciones)
+VALUES
+  (1, 1, 1, 1, 2, NOW(), '2025-04-20 08:00:00', 'Tomar 2 pastillas cada 8 horas'),
+  (2, 3, 2, 2, 10, NOW(), '2025-04-19 10:00:00', 'Tomar 10ml cada 6 horas'),
+  (3, 2, 1, 1, 1, NOW(), '2025-04-19 09:00:00', 'Tomar 1 pastilla cada 12 horas');
+
+-- Insertar Historial de Dosis
+INSERT INTO historial (paciente_id, dosis_id, medicamento_id, administrador_id, dosis_aplicada, selatomado, hora_aplicacion, observaciones, fecha_registro)
+VALUES
+  (1, 1, 1, 1, 2, TRUE, '2025-04-20 08:00:00', 'Paciente en recuperación', NOW()),
+  (2, 2, 2, 2, 10, FALSE, '2025-04-19 10:00:00', 'Paciente se olvidó de tomar la dosis', NOW()),
+  (3, 3, 2, 1, 1, TRUE, '2025-04-19 09:00:00', 'Paciente con mejora notoria', NOW());
+
+
+
+CREATE TABLE dispensador_log (
+    id SERIAL PRIMARY KEY,
+    topic INT,
+    payload INT,
+    timestamp TIMESTAMP DEFAULT NOW()
+);
