@@ -59,6 +59,9 @@ LEDs indican el estado del proceso.
 # Interfaz Grafica 
 <br>
 
+![image](https://github.com/user-attachments/assets/3500b85a-6dea-4332-a683-99e1db76ee70)
+
+
 # Maqueta 
 <br>
 
