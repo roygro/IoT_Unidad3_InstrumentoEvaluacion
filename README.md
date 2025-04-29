@@ -114,6 +114,19 @@ https://app.cirkitdesigner.com/project/4fc5dc96-468e-4d9d-bed5-134bb7744395
 
 ![image](https://github.com/user-attachments/assets/642df161-a0fc-46c0-99b9-fe6101d85bd1)
 
+<br>
+
+![image](https://github.com/user-attachments/assets/a082f7b4-6466-4af0-89b6-0e044c240bfa)
+
+<br>
+
+![image](https://github.com/user-attachments/assets/7dab9c24-e544-4491-8cf2-c3714f931879)
+
+<br>
+
+![image](https://github.com/user-attachments/assets/cfc9d988-fda4-490a-8ce1-3442eb5e3bc9)
+
+
 
 
 
