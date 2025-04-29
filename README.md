@@ -75,6 +75,14 @@ LEDs indican el estado del proceso.
 # Diagramas de las placas
 <br>
 
+
+![image](https://github.com/user-attachments/assets/699ab7cf-b1e8-4673-9894-e127f4ef06fe)
+<br>
+https://app.cirkitdesigner.com/project/524df28d-17a4-4d42-8ff8-f6278b7e2e07
+
+
+
+
 # Bases de Datos y Almacenamiento 
 <br>
 
