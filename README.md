@@ -70,6 +70,11 @@ LEDs indican el estado del proceso.
 
 ![Imagen de WhatsApp 2025-04-29 a las 15 02 57_28cd0301](https://github.com/user-attachments/assets/5fbd26ef-7d7b-47f0-b283-2d9da11609a4)
 
+<br>
+
+![image](https://github.com/user-attachments/assets/9c6fbfbc-a7ee-400d-93c5-c1d05e72116b)
+
+
 
 
 
