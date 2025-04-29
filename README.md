@@ -59,11 +59,13 @@ LEDs indican el estado del proceso.
 # Interfaz Grafica 
 <br>
 
-![image](https://github.com/user-attachments/assets/3500b85a-6dea-4332-a683-99e1db76ee70)
+![image](https://github.com/user-attachments/assets/403a0ebe-7794-4438-ae09-7b3a5cb1803b)
+
 
 <br>
 
-![image](https://github.com/user-attachments/assets/756428a8-04c4-46b0-aa49-b0bfbfa015dd)
+![image](https://github.com/user-attachments/assets/cf60d06a-fed3-4df8-adf5-ffc804b96980)
+
 
 
 
