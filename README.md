@@ -124,6 +124,12 @@ https://drive.google.com/drive/folders/1gkQf6arO-RZu3aNoIe4QQNL3Rfe0vFYb?usp=sha
 
 https://docs.google.com/document/d/1JNbdgmP8gc3tPysofamoscSPRqMPaIEy5yJ789uDi5Q/edit?usp=sharing
 
+
+
+# Aprobacion del proyecto
+https://drive.google.com/file/d/1kuXvXRzVs7hb-csxIrKh6klvwPFE23-V/view?usp=drivesdk
+
+
 # Autores 
 
 Juana Jaqueline Camarrillo Olaez
