@@ -123,3 +123,6 @@ CREATE TABLE dispensador_log (
     payload INT,
     timestamp TIMESTAMP DEFAULT NOW()
 );
+
+
+
