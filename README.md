@@ -80,6 +80,19 @@ LEDs indican el estado del proceso.
 <br>
 https://app.cirkitdesigner.com/project/524df28d-17a4-4d42-8ff8-f6278b7e2e07
 
+<br>
+
+![image](https://github.com/user-attachments/assets/09116c59-474b-4316-8d04-b5b888f65aee)
+<br>
+https://app.cirkitdesigner.com/project/798a1c33-8ef0-47ed-80ed-8f71a19886e8
+
+<br>
+
+![image](https://github.com/user-attachments/assets/2db9a351-dd7a-4a3a-8afd-36d4deb3719d)
+
+<br>
+https://app.cirkitdesigner.com/project/4fc5dc96-468e-4d9d-bed5-134bb7744395
+
 
 
 
