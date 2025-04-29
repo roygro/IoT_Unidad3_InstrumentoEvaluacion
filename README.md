@@ -26,8 +26,6 @@ El Tachomorfinador 62 es un sistema automatizado de dispensación de medicamento
 | **Otros**     | Impresión 3D                                                                 |
 
 
-# Arquitectura del Sistema
-<br>
 
 # Tabla de Actuadores
 | Nombre               | Descripción                              | Uso en el proyecto        | Imagen |
