@@ -80,6 +80,26 @@ LEDs indican el estado del proceso.
 # Maqueta 
 <br>
 
+![Imagen de WhatsApp 2025-04-29 a las 16 58 48_8f592815](https://github.com/user-attachments/assets/add7e173-c7d8-4648-b56c-434ca69e9203)
+<br>
+
+![Imagen de WhatsApp 2025-04-29 a las 16 58 48_dbba274f](https://github.com/user-attachments/assets/d60a1229-0a0b-4705-a0c4-0a09388f5a34)
+<br>
+
+![Imagen de WhatsApp 2025-04-29 a las 16 58 48_644d7912](https://github.com/user-attachments/assets/3721eb54-55b6-4dfe-ada0-96b10ecbca86)
+<br>
+
+![Imagen de WhatsApp 2025-04-29 a las 16 58 48_2d42216f](https://github.com/user-attachments/assets/13577637-0858-45e6-8c35-3e2cf5690305)
+<br>
+
+![Imagen de WhatsApp 2025-04-29 a las 16 58 48_fc50af7d](https://github.com/user-attachments/assets/deff1816-5d12-4065-81d7-33ecc708237a)
+<br>
+
+
+
+
+
+
 # Diagramas de las placas
 <br>
 
